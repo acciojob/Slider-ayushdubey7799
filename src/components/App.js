@@ -66,7 +66,7 @@ const App = () => {
 
     return (
         <React.Fragment>
-            <header id="review-heading.">Reviews</header>
+            <header id="review-heading">Reviews</header>
             <section id="review-container">
               <p id={"person-"+index}>{reviews[index].name}</p>
               <img id={"person-"+index+"-image"} src= {reviews[index].image}  />
